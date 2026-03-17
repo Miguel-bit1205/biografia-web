@@ -138,7 +138,6 @@ a {
   border-radius: 8px;
 }
 
-/* Ajustes para móvil en horizontal */
 @media (orientation: landscape) {
   .foto-perfil {
     width: 135px;
