@@ -169,11 +169,14 @@ a {
   }
 
   .proyectos {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 15px;
   }
 
   .proyecto {
-    flex: 1 1 250px;
+    width: calc(50% - 8px);
+    box-sizing: border-box;
   }
 }
