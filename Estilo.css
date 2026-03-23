@@ -161,65 +161,65 @@ a {
   .contenido {
     padding: 20px;
   }
+}
 
-  @media (min-width: 1024px) {
-    .contenedor {
-      max-width: 900px;
-      margin: 30px auto;
-    }
+@media (min-width: 1024px) {
+  .contenedor {
+    max-width: 900px;
+    margin: 30px auto;
+  }
 
-    .contenido {
-      padding: 30px;
-    }
+  .contenido {
+    padding: 30px;
+  }
 
-    .cabecera-contenido {
-      padding: 40px 30px;
-    }
+  .cabecera-contenido {
+    padding: 40px 30px;
+  }
 
-    .foto-perfil {
-      width: 150px;
-      height: 150px;
-    }
+  .foto-perfil {
+    width: 150px;
+    height: 150px;
+  }
 
-    h1 {
-      font-size: 34px;
-    }
+  h1 {
+    font-size: 34px;
+  }
 
-    .subtitulo {
-      font-size: 18px;
-    }
+  .subtitulo {
+    font-size: 18px;
+  }
 
-    .botones-cabecera {
-      margin-top: 25px;
-    }
+  .botones-cabecera {
+    margin-top: 25px;
+  }
 
-    .tarjeta {
-      padding: 22px;
-      margin-bottom: 22px;
-    }
+  .tarjeta {
+    padding: 22px;
+    margin-bottom: 22px;
+  }
 
-    .proyectos {
-      display: flex;
-      gap: 20px;
-    }
-    .educacion {
-      display: flex;
-      gap: 20px;
-    }
+  .proyectos {
+    display: flex;
+    gap: 20px;
+  }
+  .educacion {
+    display: flex;
+    gap: 20px;
+  }
 
-    .edu-item {
-      flex: 1;
-      background-color: white;
-      padding: 15px;
-      border-radius: 8px;
-      border-left: 5px solid rgb(212, 36, 13);
-    }
-    .proyecto {
-      flex: 1;
-    }
+  .edu-item {
+    flex: 1;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid rgb(212, 36, 13);
+  }
+  .proyecto {
+    flex: 1;
+  }
 
-    .habilidades {
-      gap: 12px;
-    }
+  .habilidades {
+    gap: 12px;
   }
 }
